@@ -1,0 +1,46 @@
+*{
+  font-family: arial;
+}
+
+#navbar{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  height: 100%;
+  padding: 3.8%;
+  width: 10%;
+  text-align: center;
+  font-size: 1.5em;
+  outline: 2px solid black;
+  background: -webkit-linear-gradient(top,lightgray,white);
+}
+
+#main-doc{
+  padding: 2.5%;
+  background-color: lightgray;
+  position: absolute;
+  margin-left: 18%;
+  font-size: 1.5em;
+  border-color: black;
+  outline: 2px solid black;
+  border-radius: 5px;
+}
+
+body{
+  background-color:  rgba(221, 215, 215, 0.877);
+}
+
+code{
+  font-family: monospace;
+  font-size: 0.8em;
+  background-color: bisque;
+  margin-left: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    display: block;
+  }
+}
